@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #d7ffff;
+  border-radius: 10px;
+}
+
+.items-container {
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.item {
+  padding: 1.5em;
+  max-width: 10em;
+  word-break: break-word;
+}
+
+.item h3 {
+  min-height: 6em;
+  font-size: 24px;
+  font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.item p {
+  font-family: 'Inder', sans-serif;
+}
+
+.item p:nth-child(2) {
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif   !important;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.paginate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.pagination-btn {
+  width: 38px;
+  height: 48px;
+  background: aliceblue;
+  border-radius: 6px;
+}
+
+.active-btn {
+  background: #adaeaf;
+}
+/*# sourceMappingURL=style.css.map */
